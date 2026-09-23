@@ -1,0 +1,79 @@
+#left-btn,#right-btn {
+    /* display: flex; */
+    height: 60px;
+    /* max-height: 180px; */
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0 15px;
+    border-radius: 50%;
+    width: 60px;
+    color: #fff;
+    border: 1px solid var(--snd-banana);
+    transform: translateY(-50%) scale(0.8) ;
+    box-shadow: rgba(149, 149, 152, 0.2) 0px 7px 29px 0px;
+    transition: transform 600ms;
+}
+/* .solution-widget #right-btn,.solution-widget #left-btn{
+    height: 100%;
+    width: 40px;
+    border-radius: 10px;
+}
+.solution-widget #right-btn {
+    right: -20px;
+}
+.solution-widget #left-btn {
+    left: -20px;
+} */
+#left-btn i ,#right-btn i{
+    color: #fff;
+}
+#left-btn {
+    left: calc(-50vw - -50% + 15px);
+    /* background-image: linear-gradient(270deg, rgba(255, 255, 255,0.2) 0%, rgba(0,0,0,1) 100%); */
+    z-index: 9;
+    
+}
+#right-btn {
+    right: calc(-50vw - -50% + 15px);
+    /* background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.2) 30%, rgba(0,0,0,1) 100%); */
+    z-index: 9;
+}
+.solution:hover #left-btn,.solution:hover #right-btn {
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9;
+    transform: translateY(-50%) scale(1) ;
+    transition: transform 600ms;
+}
+.solution:hover #left-btn i,.solution:hover #right-btn i{
+    /* font-size: 20px; */
+    transition: font-size 600ms;
+}
+.hero .carousel-main #left-btn,.hero .carousel-main #right-btn {
+    top: calc(1rem + 55px)
+}
+.no-courese .carousel-main #right-btn {
+    display: none;
+}
+.carousel-items.solution-list {
+    scroll-snap-type: none !important;
+}
+@media(max-width:767px) {
+    .carousel-items {
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+    }
+    .carousel-items > * {
+        scroll-snap-align: center;
+    }
+    #left-btn,#right-btn {
+        transform: scale(0.8) translateY(-50%);
+    }
+    .solution:hover #left-btn,.solution:hover #right-btn {
+        transform: scale(0.8) translateY(-50%);
+    }
+    .hero .carousel-main #left-btn,.hero .carousel-main #right-btn {
+        top: calc(1rem + 40px)
+    }
+    .column-card-container .carousel-items.fluid-last:after {
+        content: none;
+    }
+}
