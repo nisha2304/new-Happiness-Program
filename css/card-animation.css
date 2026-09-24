@@ -1,0 +1,32 @@
+.aol-animate-card {
+    opacity: 0;
+    transform: translate3d(0, 28px, 0);
+
+    transition:
+        opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+        transform 0.7s cubic-bezier(0.16, 1, 0.3, 1) !important;
+
+    transition-delay: var(--delay, 0ms) !important;
+
+    will-change: opacity, transform !important;
+    backface-visibility: hidden !important;
+}
+
+.aol-animate-card.is-visible {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+
+/* Elementor editor */
+body.elementor-editor-active .aol-animate-card {
+    opacity: 1 !important;
+    transform: none !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .aol-animate-card {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: none !important;
+    }
+}
