@@ -1,0 +1,253 @@
+.fm-form-container.fm-theme1 .fm-form.header_left_right .wdform-page-and-images {
+	width: 100%;
+}
+.fm-topbar .fm-form-container.fm-theme1 .fm-form .fm-header {
+	width: 40% !important;
+}
+.fm-form-container.fm-theme1 .fm-form .fm-header-title {
+	font-size: 24px;
+}
+.fm-form-container.fm-theme1 .fm-form .fm-header-description {
+	font-size: 15px;
+}
+.fm-form-container.fm-theme1 .fm-scrollbox {
+	width: 30%;
+}
+.fm-form-container.fm-theme1 .fm-form .wdform-page-and-images {
+	border-style: unset !important;
+	width: 100%;
+	color: #808080;
+}
+.fm-topbar .fm-form-container.fm-theme1 .fm-form .wdform-page-and-images {
+	width: 60% !important;
+}
+.fm-form-container.fm-theme1 .fm-form .mini_label {
+	font-weight: normal;
+	font-size: 12px !important;
+	color: #808080;
+}
+.fm-form-container.fm-theme1 .fm-form .wdform-page-and-images label {
+	color: #808080;
+}
+.fm-form-container.fm-theme1 .fm-form .wdform_section {
+	background: transparent;
+}
+
+.fm-form-container.fm-theme1 .fm-popover .fm-popover-content {
+	width: 100%;
+}
+.fm-form-container.fm-theme1 .fm-form .wdform_footer {
+	margin: 15px 0 0 0;
+	color: #808080;
+}
+.fm-form-container.fm-theme1 .fm-pages .page_active {
+	padding: 8px;
+	background-color: #808080;
+}
+.fm-form-container.fm-theme1 .fm-pages .page_deactive {
+	background-color: #808080;
+	margin: 0 0 10px 0;
+	padding: 4px 6px;
+}
+.fm-form-container.fm-theme1 .fm-pages .page_percentage_active {
+	padding: 8px;
+	background-color: #808080;
+}
+.fm-form-container.fm-theme1 .fm-pages .page_percentage_deactive {
+	width: 100%;
+	margin: 0 0 10px 0;
+	padding: 4px 6px;
+	background-color: #999999;
+}
+.fm-form-container.fm-theme1 .fm-action-buttons * {
+	font-size: 20px !important;
+}
+.fm-form-container.fm-theme1 .closing-form, .fm-form-container.fm-theme1 .minimize-form {
+	position: absolute;
+	background-color: #333333;
+}
+.fm-form-container.fm-theme1 .closing-form {
+	top: -20px;
+	right: 20px;
+}
+.fm-form-container.fm-theme1 .minimize-form {
+	top: -20px;
+	right: 63px;
+}
+.fm-form-container.fm-theme1 .closing-form:hover, .fm-form-container.fm-theme1 .minimize-form:hover {
+	border: none;
+}
+.fm-form-container.fm-theme1 .fm-form .file-upload-status {
+	display: none;
+}
+.fm-form-container.fm-theme1 .fm-form .file-upload input {
+	border: none;
+}
+.fm-form-container.fm-theme1 .fm-form {
+	font-family: Source Sans Pro;
+}
+.fm-form-container.fm-theme1 .fm-form input[type="text"], .fm-form-container.fm-theme1 .fm-form .ui-corner-all, .fm-form-container.fm-theme1 .fm-form input[type="number"], .fm-form-container.fm-theme1 .fm-form input[type=password], .fm-form-container.fm-theme1 .fm-form input[type=url], .fm-form-container.fm-theme1 .fm-form input[type=email], .fm-form-container.fm-theme1 .fm-form textarea, .fm-form-container.fm-theme1 .fm-form .StripeElement, .fm-form-container.fm-theme1 .fm-form .ui-spinner-input, .fm-form-container.fm-theme1 .fm-form select, .fm-form-container.fm-theme1 .fm-form .captcha_img, .fm-form-container.fm-theme1 .fm-form .arithmetic_captcha_img {
+	height: 40px;
+}
+.fm-form-container.fm-theme1 .fm-form input[type="text"], .fm-form-container.fm-theme1 .fm-form .ui-corner-all:not(.ui-spinner):not(.ui-slider-horizontal), .fm-form-container.fm-theme1 .fm-form input[type="number"], .fm-form-container.fm-theme1 .fm-form input[type=password], .fm-form-container.fm-theme1 .fm-form input[type=url], .fm-form-container.fm-theme1 .fm-form input[type=email], .fm-form-container.fm-theme1 .fm-form textarea, .fm-form-container.fm-theme1 .fm-form .StripeElement, .fm-form-container.fm-theme1 .fm-form .ui-spinner-input, .fm-form-container.fm-theme1 .fm-form .file-upload-status, .fm-form-container.fm-theme1 .fm-form select {
+	padding: 6px 10px;
+}
+.fm-form-container.fm-theme1 .fm-form input[type="text"], .fm-form-container.fm-theme1 .fm-form .ui-corner-all, .fm-form-container.fm-theme1 .fm-form input[type="number"], .fm-form-container.fm-theme1 .fm-form input[type=password], .fm-form-container.fm-theme1 .fm-form input[type=url], .fm-form-container.fm-theme1 .fm-form input[type=email], .fm-form-container.fm-theme1 .fm-form textarea, .fm-form-container.fm-theme1 .fm-form .StripeElement, .fm-form-container.fm-theme1 .fm-form .ui-spinner-input, .fm-form-container.fm-theme1 .fm-form .file-upload-status, .fm-form-container.fm-theme1 .fm-form .country-name, .fm-form-container.fm-theme1 .fm-form select {
+	font-size: 16px;
+	color: #333333;
+	border-radius: 10px !important;
+}
+.fm-form-container.fm-theme1 .fm-form input[type="text"]::placeholder,
+.fm-form-container.fm-theme1 .fm-form .ui-corner-all::placeholder,
+.fm-form-container.fm-theme1 .fm-form input[type="number"]::placeholder,
+.fm-form-container.fm-theme1 .fm-form input[type=password]::placeholder,
+.fm-form-container.fm-theme1 .fm-form input[type=url]::placeholder,
+.fm-form-container.fm-theme1 .fm-form input[type=email]::placeholder,
+.fm-form-container.fm-theme1 .fm-form textarea::placeholder,
+.fm-form-container.fm-theme1 .fm-form .StripeElement::placeholder,
+.fm-form-container.fm-theme1 .fm-form .ui-spinner-input::placeholder,
+.fm-form-container.fm-theme1 .fm-form .file-upload-status::placeholder,
+.fm-form-container.fm-theme1 .fm-form .country-name::placeholder,
+.fm-form-container.fm-theme1 .fm-form select::placeholder {
+	color: #333333;
+	opacity: 0.5;
+}
+.fm-form-container.fm-theme1 .fm-form .ui-slider-range {
+	border-radius: 10px 0 0 10px !important;
+}
+.fm-form-container.fm-theme1 .fm-form input[type="text"]:not(.ui-spinner-input), .fm-form-container.fm-theme1 .fm-form input[type="number"]:not(.ui-spinner-input), .fm-form-container.fm-theme1 .fm-form input[type=password], .fm-form-container.fm-theme1 .fm-form input[type=url], .fm-form-container.fm-theme1 .fm-form input[type=email], .fm-form-container.fm-theme1 .fm-form textarea, .fm-form-container.fm-theme1 .fm-form .StripeElement, .fm-form-container.fm-theme1 .fm-form .ui-spinner, .fm-form-container.fm-theme1 .fm-form .ui-slider, .fm-form-container.fm-theme1 .fm-form .ui-slider-handle, .fm-form-container.fm-theme1 .fm-form select {
+	border-top: 1px !important;
+	border-top-style: solid !important;
+	border-top-color: #dfdfdf !important;
+}
+.fm-form-container.fm-theme1 .fm-form .ui-slider-range {
+	background: #dfdfdf !important;
+}
+.fm-form-container.fm-theme1 .fm-form input[type="text"]:not(.ui-spinner-input), .fm-form-container.fm-theme1 .fm-form input[type="number"]:not(.ui-spinner-input), .fm-form-container.fm-theme1 .fm-form input[type=password], .fm-form-container.fm-theme1 .fm-form input[type=url], .fm-form-container.fm-theme1 .fm-form input[type=email], .fm-form-container.fm-theme1 .fm-form textarea, .fm-form-container.fm-theme1 .fm-form .StripeElement, .fm-form-container.fm-theme1 .fm-form .ui-spinner, .fm-form-container.fm-theme1 .fm-form .ui-slider, .fm-form-container.fm-theme1 .fm-form .ui-slider-handle, .fm-form-container.fm-theme1 .fm-form select {
+	border-left: 1px !important;
+	border-left-style: solid !important;
+	border-left-color: #dfdfdf !important;
+}
+.fm-form-container.fm-theme1 .fm-form .ui-spinner-button {
+	border-left: 1px !important;
+	border-left-style: solid !important;
+	border-left-color: #dfdfdf !important;
+}
+.fm-form-container.fm-theme1 .fm-form .ui-slider-range {
+	background: #dfdfdf !important;
+}
+.fm-form-container.fm-theme1 .fm-form input[type="text"]:not(.ui-spinner-input), .fm-form-container.fm-theme1 .fm-form input[type="number"]:not(.ui-spinner-input), .fm-form-container.fm-theme1 .fm-form input[type=password], .fm-form-container.fm-theme1 .fm-form input[type=url], .fm-form-container.fm-theme1 .fm-form input[type=email], .fm-form-container.fm-theme1 .fm-form textarea, .fm-form-container.fm-theme1 .fm-form .StripeElement, .fm-form-container.fm-theme1 .fm-form .ui-spinner, .fm-form-container.fm-theme1 .fm-form .ui-slider, .fm-form-container.fm-theme1 .fm-form .ui-slider-handle, .fm-form-container.fm-theme1 .fm-form select {
+	border-right: 1px !important;
+	border-right-style: solid !important;
+	border-right-color: #dfdfdf !important;
+}
+.fm-form-container.fm-theme1 .fm-form .ui-slider-range {
+	background: #dfdfdf !important;
+}
+.fm-form-container.fm-theme1 .fm-form input[type="text"]:not(.ui-spinner-input), .fm-form-container.fm-theme1 .fm-form input[type="number"]:not(.ui-spinner-input), .fm-form-container.fm-theme1 .fm-form input[type=password], .fm-form-container.fm-theme1 .fm-form input[type=url], .fm-form-container.fm-theme1 .fm-form input[type=email], .fm-form-container.fm-theme1 .fm-form textarea, .fm-form-container.fm-theme1 .fm-form .StripeElement, .fm-form-container.fm-theme1 .fm-form .ui-spinner, .fm-form-container.fm-theme1 .fm-form .ui-slider, .fm-form-container.fm-theme1 .fm-form .ui-slider-handle, .fm-form-container.fm-theme1 .fm-form select {
+	border-bottom: 1px !important;
+	border-bottom-style: solid !important;
+	border-bottom-color: #dfdfdf !important;
+}
+.fm-form-container.fm-theme1 .fm-form .ui-slider-range {
+	background: #dfdfdf !important;
+}
+.fm-form-container.fm-theme1 .button-submit, .fm-form-container.fm-theme1 .button-reset {
+	background-image: none;
+	text-transform: none;
+}
+.fm-form-container.fm-theme1 .fm-form .button-submit {
+	padding: 12px 30px 12px 30px !important;
+	background-color: #eca55a !important;
+	background-image: none;
+	border: none;
+	font-size: 24px !important;
+	color: #333333 !important;
+	border-radius: 50px !important;
+	max-width: 100%
+}
+.fm-form-container.fm-theme1 .fm-form .button-submit .fm-submit-loading.spinner {
+	width: 24px !important;
+	height: 24px !important;
+}
+.fm-form-container.fm-theme1 .fm-form .button-submit .fm-submit-loading.spinner:before {
+	color: #333333 !important;
+	font-size: 24px !important;
+}
+.fm-form-container.fm-theme1 .fm-form .button-reset,
+.fm-form-container.fm-theme1 .fm-form button {
+	font-weight: normal !important;
+	font-size: 18px !important;
+}
+.fm-form-container.fm-theme1 .fm-form .next-page div.wdform-page-button {
+	background-color: #eca55a !important;
+	font-weight: normal !important;
+	font-size: 18px !important;
+	color: #808080 !important;
+}
+.fm-form-container.fm-theme1 .fm-form .previous-page div.wdform-page-button {
+	font-weight: normal !important;
+	font-size: 18px !important;
+}
+.ds-popup-wrapper {
+	z-index: 999;
+	overflow: hidden !important;
+}
+.calendar_events {
+	width: 100%;
+}
+.fm-form-container.fm-theme1 .fm-form .wdform-page-and-images label {
+	font-size: 12px;
+}
+.fm-form-container.fm-theme1 .fm-form .ds-popup-wrapper {
+	z-index: 999;
+}
+.fm-form-container.fm-theme1 .fm-form .calendar_events {
+	width: 100%;
+}
+.fm-form-container.fm-theme1 .fm-form .fm-form-container.fm-theme1 .fm-form .wdform-page-and-images label {
+	font-size: 12px;
+}
+@media (max-width: 767px){
+	.ds-popup .ds-popup-wrapper{
+		max-height: 80vh;
+	}
+}
+
+#webform-ajax-wrapper-16 .success-msg {
+
+	background: rgba(255, 255, 255, 0.7);
+   padding: 10px;
+   border-radius: 5px;
+   color: black;
+	 
+ }
+
+ .custom-file-upload {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5em;
+  }
+  
+  .custom-file-upload button {
+	padding: 0.5em 1em;
+	background-color: #007bff;
+	border: none;
+	color: white;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  .custom-file-upload button:hover {
+	background-color: #0056b3;
+  }
+  
+  .custom-file-upload .file-names {
+	font-size: 0.9em;
+	color: #333;
+  }
+
+  .custom-file-upload .file-error {
+	color: red;
+  }
+  
